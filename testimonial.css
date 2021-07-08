@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.testimonial{
+	width: 800px;
+	height: 500px;
+	background: #F3F3F3;
+	box-shadow: 0px 16px 64px rgba(243, 243, 243, 0.1);
+	border-radius: 10px;
+	font-family: Poppins;	
+	position: relative;
+	
+}
+
+.one{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 37px;
+	color: #000000;
+	text-align: center;
+	margin-top: 29px;
+	
+}
+
+.line{
+	margin-top: -15px;
+	margin-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 250px;
+	height: 10px;
+	background: rgba(251, 193, 6, 0.7);
+	
+}
+
+.two{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 22px;
+	color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	
+	
+}
+
+.circle-holder{
+	margin-top: 7px;
+	margin-bottom: 3px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+.circle{
+	border-radius: 100%;
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+	background: rgba(198, 198, 198, 0.6);
+}
+
+.three{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+	text-align: center;
+	
+}
+
+.four{
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.4);
+	padding: 5px 0;
+}
+
+.stars{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 20px;
+	
+}
+.star{
+	margin-right: 10px;
+}
+
+
+.open{
+	position: absolute;
+	left: 99px;
+	top: 348px;
+	height: 40px;
+	width: 29.85px;
+}
+.quote{
+	text-align: center;
+	height: 84px;
+	width: 522px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.7);
+	margin: 5px auto;
+	padding: 10px 0;
+}
+
+.close{
+	position: absolute;
+	right: 90px;
+	top: 420px;
+}
+
+
+@media only screen and (max-width:  768px){
+
+	.testimonial{
+		width: 350px;
+		height: 550px;
+	}
+	.one{
+		font-size: 20px;
+
+	}
+
+	.line{
+		width: 180px;
+	}
+
+	.two{
+		font-size: 12px;
+		height: 36px;
+		width: 288px;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 18px;
+		margin: 0 auto;
+	}
+	.circle{
+		width: 90px;
+		height: 90px;
+	}
+	.three{
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.four{
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.stars{
+		margin-bottom: 30px;
+	}
+
+	.quote{
+		font-size: 13px;
+		line-height: 19px;
+		height: 140px;
+		width: 268px;
+	}
+	.open{
+		top: 316px;
+		left: 11px;
+	}
+	.close{
+		top: 476px;
+		right: 22px;
+	}
+
+}
